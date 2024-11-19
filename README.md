@@ -4,10 +4,13 @@ This repository is a collection of cloud-based projects, showcasing various clou
 
 **Projects:**
 
-* **Project 1: Linux Command Line CTF Challenge**
-  * Description: This CTF challenge requires you to deploy a lab environment in your preferred cloud provider, everything is automated, please refer to individual guides to setup the environment.
+* **Project 1: Cozy Cloud Challenge**
+  * Description: This is a 30 days beginners task with different set of task for each day, click [here](https://github.com/PhilipOyelegbin/cloud-projects/wiki) to access the document.
+  * Technologies: Cloud Platform (Google Cloud Platform).
+* **Project 2: Linux Command Line CTF Challenge**
+  * Description: This CTF challenge requires you to deploy a lab environment in your preferred cloud provider, everything is automated, please refer to individual guides to setup the environment. Click [here](./linux_task/CTF_Task.md) to access the document
   * Technologies: Terraform and Cloud Platform (Azure).
-* **Project 2: Serverless Movie API**
+* **Project 3: Serverless Movie API**
   * Description: A serverless API built with [Cloud Provider] to provide movie information, leveraging [NoSQL Database] and [Function Service].
   * Technologies: [List of technologies used, e.g., Python, Node.js, AWS Lambda, Azure Functions, Google Cloud Functions, DynamoDB, Cosmos DB, Firestore]
   * Key Features:
@@ -19,7 +22,7 @@ This repository is a collection of cloud-based projects, showcasing various clou
   * Technologies: [List of technologies used]
   * Key Features:
     * [Key features of the project]
-* **[Add more projects as you complete them]**
+
 
 **How to Use:**
 
