@@ -1,0 +1,27 @@
+{
+  "name": "sdk_serverless_movies_api",
+  "version": "1.0.0",
+  "description": "Create an API with serverless functions that display movie information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipOyelegbin/cloud-projects.git"
+  },
+  "keywords": [
+    "Serverless",
+    "API"
+  ],
+  "author": "Philip Oyelegbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilipOyelegbin/cloud-projects/issues"
+  },
+  "homepage": "https://github.com/PhilipOyelegbin/cloud-projects#readme",
+  "dependencies": {
+    "@azure/functions": "^4.6.0",
+    "@azure/storage-blob": "^12.26.0"
+  }
+}
