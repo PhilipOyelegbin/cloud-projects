@@ -10,7 +10,7 @@ This is a solid training plan that will provide a strong foundation in Cloud Dev
 
 - Overview of DevOps principles, cloud computing, and industry best practices.
 - Hands-on Lab: Set up free-tier accounts on AWS/Azure/GCP.
-- Project: Deploy a simple static website using an S3 bucket or cloud storage service.
+- Project: Deploy a simple static website using an S3 bucket or cloud storage service, click [here](./Readme.md) for access.
 
 #### **Module 2: Linux, Scripting, and Version Control**
 
