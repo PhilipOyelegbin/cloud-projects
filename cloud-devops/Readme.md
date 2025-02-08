@@ -10,19 +10,19 @@ This is a solid training plan that will provide a strong foundation in Cloud Dev
 
 - Overview of DevOps principles, cloud computing, and industry best practices.
 - Hands-on Lab: Set up free-tier accounts on AWS/Azure/GCP.
-- Project: Deploy a simple static website using an S3 bucket or cloud storage service, click [here](./Readme.md) for access.
+- Project: Deploy a simple static website using an S3 bucket or cloud storage service, click [here](./phase-1/module1/module1.md) for access.
 
 #### **Module 2: Linux, Scripting, and Version Control**
 
 - Learn Linux fundamentals and shell scripting (Bash, Python).
 - Introduction to Git, GitHub, and Git workflows.
-- Project: Automate user and package installation on a Linux VM with Bash scripting.
+- Project: Automate user and package installation on a Linux VM with Bash scripting, click [here](./phase-1/module1/module2.md) for access.
 
 #### **Module 3: Infrastructure as Code (IaC) Basics**
 
 - Introduction to Terraform/CloudFormation and infrastructure automation.
 - Hands-on Lab: Deploy an EC2 instance or Virtual Machine using IaC.
-- Project: Automate the deployment of a simple web server using Terraform.
+- Project: Automate the deployment of a simple web server using Terraform, click [here](./phase-1/module1/module3.md) for access.
 
 ---
 
@@ -32,13 +32,13 @@ This is a solid training plan that will provide a strong foundation in Cloud Dev
 
 - Learn the fundamentals of CI/CD pipelines using Jenkins, GitHub Actions, or GitLab CI.
 - Hands-on Lab: Set up a simple CI/CD pipeline for a sample application.
-- Project: Implement a pipeline that builds and deploys a Dockerized web app to a cloud VM.
+- Project: Implement a pipeline that builds and deploys a Dockerized web app to a cloud VM, click [here](./phase-2/module4/module4.md) for access.
 
 #### **Module 5: Containerization & Orchestration**
 
 - Introduction to Docker and Kubernetes.
 - Hands-on Lab: Create Docker images and deploy containers.
-- Project: Deploy a multi-container application using Docker Compose.
+- Project: Deploy a multi-container application using Docker Compose, click [here](./phase-2/module5/module5.md) for access.
 
 #### **Module 6: Cloud Networking and Security Best Practices**
 
