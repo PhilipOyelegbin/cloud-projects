@@ -17,15 +17,4 @@
 9. Verify the docker is installed on the virtual machine.
    ![preview](./snapshot1.png)
 
-10. Create the github action workflow file called [deploy.yml](./deploy.yml) into the gthub repo and push the app to github and configure GitHub Secrets.
-11. Deploy and Test the Application by pushing to the main branch to trigger the pipeline
-    ![preview](./snapshot2.png)
-
-12. Run the command `terraform destroy` to remove the infrastructure.
-13. Verify the web server is no longer accessible by visiting the public IP address of the instance.
-
-### What did I learn?
-
-- Terraform scripting
-- How to automate the deployment and installation od docker on server using Terraform.
-- Creating a CI/CD pipeline using GitHub Actions
+10.
