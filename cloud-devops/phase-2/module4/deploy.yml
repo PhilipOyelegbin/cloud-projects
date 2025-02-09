@@ -16,15 +16,15 @@ jobs:
         uses: docker/setup-buildx-action@v2
 
       - name: Build Docker image
-        run: docker build -t my-web-app:${{ github.sha }} .
+        run: docker build -t tradezon:${{ github.sha }} .
 
       - name: Login to DockerHub
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Push Docker image to DockerHub
         run: |
-          docker tag my-web-app:${{ github.sha }} mydockerhubuser/my-web-app:${{ github.sha }}
-          docker push mydockerhubuser/my-web-app:${{ github.sha }}
+          docker tag tradezon:${{ github.sha }} philipoyelegbin/tradezon:${{ github.sha }}
+          docker push philipoyelegbin/tradezon:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
@@ -33,11 +33,11 @@ jobs:
       - name: SSH into Cloud VM and Deploy App
         uses: appleboy/ssh-action@v0.1.6
         with:
-          host: ${{ secrets.EC2_HOST }}
+          host: ${{ secrets.GCP_HOST }}
           username: ec2-user
-          key: ${{ secrets.EC2_SSH_KEY }}
+          key: ${{ secrets.GCP_SSH_KEY_PRV }}
           script: |
-            sudo docker pull mydockerhubuser/my-web-app:${{ github.sha }}
-            sudo docker stop my-web-app || true
-            sudo docker rm my-web-app || true
-            sudo docker run -d -p 80:3000 --name my-web-app mydockerhubuser/my-web-app:${{ github.sha }}
+            sudo docker pull philipoyelegbin/tradezon:${{ github.sha }}
+            sudo docker stop runner1 || true
+            sudo docker rm runner1 || true
+            sudo docker run -d -p 80:80 --name runner1 philipoyelegbin/tradezon:${{ github.sha }}

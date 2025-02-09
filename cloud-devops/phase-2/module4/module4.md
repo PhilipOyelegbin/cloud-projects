@@ -17,4 +17,19 @@
 9. Verify the docker is installed on the virtual machine.
    ![preview](./snapshot1.png)
 
-10.
+10. Create the github action workflow file called [deploy.yml](./deploy.yml) into the [github repo](https://github.com/PhilipOyelegbin/tradezon) and push the app to github and configure GitHub Secrets.
+11. Deploy and Test the Application by pushing to the main branch to trigger the pipeline
+    ![preview](./snapshot2.png)
+
+12. Verify that the applicaton is live on the browser.
+    ![preview](./snapshot3.png)
+
+13. Run the command `terraform destroy` to remove the infrastructure.
+
+### What did I learn?
+
+- Terraform scripting
+- How to automate the deployment and installation of docker on server using Terraform.
+- How to create a Dockerfile and build a docker image
+- How to run and push my docker image to docker hub
+- Creating a CI/CD pipeline using GitHub Actions (.yml) file
