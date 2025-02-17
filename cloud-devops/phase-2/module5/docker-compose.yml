@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  frontend:
+    image: philipoyelegbin/fbck-frontend
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  backend:
+    image: philipoyelegbin/fbck-backend
+    build: ./backend
+    ports:
+      - "80:80"

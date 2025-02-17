@@ -93,7 +93,7 @@ This is a solid training plan that will provide a strong foundation in Cloud Dev
 
 ### **Outcome**
 
-By the end of this structured program, the intern will have:
+By the end of this structured program, you will have:
 
 ✅ Hands-on experience with major cloud providers.  
 ✅ Built and deployed cloud infrastructure using Infrastructure as Code (IaC).  
@@ -101,5 +101,3 @@ By the end of this structured program, the intern will have:
 ✅ Configured monitoring, logging, and security best practices.  
 ✅ Gained incident management and troubleshooting expertise.  
 ✅ Developed leadership and collaboration skills for team growth.
-
-Would you like me to refine any specific areas or suggest additional resources?
