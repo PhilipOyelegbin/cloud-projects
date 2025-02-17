@@ -2,9 +2,9 @@
 
 - Introduction to Docker and Kubernetes.
 - Hands-on Lab: Create Docker images and deploy containers.
-- Project: Deploy a multi-container application using Docker Compose, click [here](./phase-2/module5/module5.md) for access.
+- Project: Deploy a multi-container application using Docker Compose.
 
-### Steps to deploy a multi-container application using Docker Compose.
+### Steps to deploy a multi-container application to GKE.
 
 1. Created the docker file for each application in respective folders
 2. Setup a mini-kublets using docker compose to test the application locally as seen below.
