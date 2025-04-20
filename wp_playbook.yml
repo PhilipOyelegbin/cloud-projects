@@ -1,0 +1,32 @@
+---
+- name: Setup Wordpress Apache Web Server
+  hosts: wordpress_server
+  remote_user: root
+
+  tasks:
+  - name: Install Apache Server
+    apt:
+      name: apache2
+      state: present
+  - name: Install PHP7.4
+    apt:
+      name: php7.4
+      state: present
+  - name: Set timezone to Africa/Lagos
+    ansible.builtin.timezone:
+      name: 'Africa/Lagos'
+  - name: Install libapache2-mod-php library
+    apt:
+      name: libapache2-mod-php
+      state: present
+  - name: Install php-mysql
+    apt:
+      name: php-mysql
+      state: present
+  - name: Install mysql server
+    apt:
+      name: mysql-server
+      state: present
+  - name: Install SSL for secure protocol (HTTPS)
+    apt:
+      name: python3-certbot-apache
