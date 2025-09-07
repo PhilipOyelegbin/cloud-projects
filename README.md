@@ -7,19 +7,22 @@ This repository is a collection of cloud-devops based projects, showcasing vario
 - **Project 1: Cozy Cloud Challenge**
   - Description: This is a 30 days beginners task with different set of task for each day, click [here](https://github.com/PhilipOyelegbin/cloud-projects/wiki) to access the document.
   - Technologies: Cloud Platform (Google Cloud Platform).
-- **Project 2: Cloud DevOps Personal Development Plan**
-  - Description: This is a solid training plan that will provide a strong foundation in Cloud DevOps, click [here](./cloud-devops) to access the folder.
-  - Technologies: GCP, Linux, Ansible, Docker, Kubernetes, GitHub Actins etc.
-- **Project 3: Linux Command Line CTF Challenge**
+- **Project 2: Linux Command Line CTF Challenge**
   - Description: This CTF challenge requires you to deploy a lab environment in your preferred cloud provider, everything is automated, please refer to individual guides to setup the environment. Click [here](./linux_task/CTF_Task.md) to access the document
   - Technologies: Terraform and Cloud Platform (Azure).
-- **Project 4: Serverless Movie API**
+- **Project 3: Serverless Movie API**
   - Description: A serverless API built with [Cloud Provider] to provide movie information, leveraging [NoSQL Database] and [Function Service].
   - Technologies: [List of technologies used, e.g., Python, Node.js, AWS Lambda, Azure Functions, Google Cloud Functions, DynamoDB, Cosmos DB, Firestore]
   - Key Features:
     - RESTful API endpoints
     - Efficient data retrieval from NoSQL database
     - Scalability and reliability of serverless architecture
+- **Project 4: CloudOps Task**
+  - Description: This folder contains solid projects related to cloudOps, click [here](./cloudops) to access the folder.
+  - Technologies: AWS, Linux, Ansible, Docker, Kubernetes etc.
+- **Project 5: DevOps Personal Development Plan**
+  - Description: This is a solid training plan that will provide a strong foundation in Cloud DevOps, click [here](./devops) to access the folder.
+  - Technologies: GCP, AWS, Linux, Ansible, Docker, Kubernetes, GitHub Actions etc.
 
 **How to Use:**
 
