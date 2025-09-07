@@ -18,7 +18,7 @@ This repository is a collection of cloud-devops based projects, showcasing vario
     - Efficient data retrieval from NoSQL database
     - Scalability and reliability of serverless architecture
 - **Project 4: CloudOps Task**
-  - Description: This folder contains solid projects related to cloudOps, click [here](./cloudops) to access the folder.
+  - Description: This folder contains solid projects related to cloudOps, click [here](./cloudops/README.md) to access the folder.
   - Technologies: AWS, Linux, Ansible, Docker, Kubernetes etc.
 - **Project 5: DevOps Personal Development Plan**
   - Description: This is a solid training plan that will provide a strong foundation in Cloud DevOps, click [here](./devops) to access the folder.
